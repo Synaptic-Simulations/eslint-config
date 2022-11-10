@@ -1,0 +1,21 @@
+{
+  "name": "@synaptic-simulations/eslint-config",
+  "version": "1.0.0",
+  "description": "Synaptic Simulations' eslint config",
+  "main": "index.js",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.42.1",
+    "@typescript-eslint/parser": "^5.42.1",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-react": "^7.31.10",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.27.0"
+  },
+  "repository": "https://github.com/Synaptic-Simulations/eslint-config",
+  "author": "Synaptic Simulations",
+  "license": "MIT"
+}
