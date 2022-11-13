@@ -11,6 +11,18 @@ module.exports = {
         'import/no-extraneous-dependencies': ['error', { devDependencies: false }],
         'import/no-relative-parent-imports': 'error',
         'import/prefer-default-export': 'off',
+        'import/order': ['error', {
+            'groups': [
+                'index',
+                'sibling',
+                'parent',
+                'internal',
+                'external',
+                'builtin',
+                'object',
+                'type'
+            ]
+        }],
 
         'indent': ['error', 4],
         'react/jsx-filename-extension': [2, { extensions: ['.jsx', '.tsx'] }],
