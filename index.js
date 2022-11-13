@@ -15,6 +15,7 @@ module.exports = {
         'indent': ['error', 4],
         'react/jsx-filename-extension': [2, { extensions: ['.jsx', '.tsx'] }],
         'react/jsx-indent': ['error', 4],
+        'react/jsx-indent-props': 'off',
         'no-restricted-syntax': 'off',
         'quote-props': ['error', 'consistent-as-needed'],
         'strict': ['error', 'global'],
