@@ -10,6 +10,7 @@ module.exports = {
 
         'import/no-extraneous-dependencies': ['error', { devDependencies: false }],
         'import/no-relative-parent-imports': 'error',
+        'import/prefer-default-export': 'off',
 
         'indent': ['error', 4],
         'react/jsx-filename-extension': [2, { extensions: ['.jsx', '.tsx'] }],
