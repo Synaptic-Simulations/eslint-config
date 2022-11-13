@@ -27,7 +27,7 @@ module.exports = {
         'no-case-declarations': 'off',
 
         'no-plusplus': 'off',
-        'no-shadow': 'error',
+        'no-shadow': 'off',
         'no-continue': 'off',
         'radix': 'off',
 
