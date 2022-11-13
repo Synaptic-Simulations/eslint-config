@@ -1,7 +1,7 @@
 module.exports = {
     extends: 'airbnb',
     parser: '@typescript-eslint/parser',
-    plugins: ['@typescript-eslint', 'react-hooks', 'react', 'jsx-a11y', 'import', 'no-relative-import-paths'],
+    plugins: ['@typescript-eslint', 'react-hooks', 'react', 'jsx-a11y', 'import'],
     rules: {
         'arrow-parens': ['error', 'always'],
         'brace-style': ['error', '1tbs', { allowSingleLine: false }],
