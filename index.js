@@ -1,7 +1,7 @@
 module.exports = {
     extends: 'airbnb',
     parser: '@typescript-eslint/parser',
-    plugins: ['@typescript-eslint', 'react-hooks', 'react', 'jsx-a11y', 'import'],
+    plugins: ['@typescript-eslint', 'react-hooks', 'react', 'jsx-a11y', 'import', 'no-relative-import-paths'],
     rules: {
         'arrow-parens': ['error', 'always'],
         'brace-style': ['error', '1tbs', { allowSingleLine: false }],
@@ -9,20 +9,7 @@ module.exports = {
         'curly': ['error', 'multi-line'],
 
         'import/no-extraneous-dependencies': ['error', { devDependencies: false }],
-        'import/no-relative-parent-imports': 'error',
         'import/prefer-default-export': 'off',
-        'import/order': ['error', {
-            'groups': [
-                'index',
-                'sibling',
-                'parent',
-                'internal',
-                'external',
-                'builtin',
-                'object',
-                'type'
-            ]
-        }],
 
         'indent': ['error', 4],
         'react/jsx-filename-extension': [2, { extensions: ['.jsx', '.tsx'] }],
