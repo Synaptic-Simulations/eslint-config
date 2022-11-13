@@ -7,8 +7,10 @@ module.exports = {
         'brace-style': ['error', '1tbs', { allowSingleLine: false }],
         'class-methods-use-this': 'off',
         'curly': ['error', 'multi-line'],
-        'import/prefer-default-export': 'on',
+
         'import/no-extraneous-dependencies': ['error', { devDependencies: false }],
+        'import/no-relative-parent-imports': 'error',
+
         'indent': ['error', 4],
         'react/jsx-filename-extension': [2, { extensions: ['.jsx', '.tsx'] }],
         'react/jsx-indent': ['error', 4],
