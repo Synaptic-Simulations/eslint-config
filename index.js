@@ -10,8 +10,8 @@ module.exports = {
 
         'import/no-extraneous-dependencies': ['error', { devDependencies: false }],
         'import/prefer-default-export': 'off',
+        'import/no-default-export': 'error',
 
-        'indent': ['error', 4],
         'react/jsx-filename-extension': [2, { extensions: ['.jsx', '.tsx'] }],
         'react/jsx-indent': ['error', 4],
         'react/jsx-indent-props': 'off',
@@ -49,11 +49,6 @@ module.exports = {
         'react/no-unescaped-entities': 'off',
 
         'react/function-component-definition': ['error', { namedComponents: 'arrow-function' }],
-        'react/jsx-handler-names': ['error', {
-            eventHandlerPrefix: 'on|handle',
-            eventHandlerPropPrefix: 'on',
-            checkLocalVariables: true,
-        }],
 
         'react-hooks/rules-of-hooks': 'error',
         'react-hooks/exhaustive-deps': 'warn',

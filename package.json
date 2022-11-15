@@ -1,6 +1,6 @@
 {
   "name": "@synaptic-simulations/eslint-config",
-  "version": "1.0.1-rc7",
+  "version": "1.0.1-rc8",
   "description": "Synaptic Simulations' eslint config",
   "main": "index.js",
   "dependencies": {
@@ -13,7 +13,7 @@
     "eslint-plugin-react-hooks": "^4.6.0"
   },
   "peerDependencies": {
-    "eslint": "^8.27.0"
+    "eslint": "^8.22.0"
   },
   "repository": "https://github.com/Synaptic-Simulations/eslint-config",
   "author": "Synaptic Simulations",
