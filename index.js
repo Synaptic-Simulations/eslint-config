@@ -1,7 +1,7 @@
 module.exports = {
     extends: 'airbnb',
     parser: '@typescript-eslint/parser',
-    plugins: ['@typescript-eslint', 'react-hooks', 'react', 'jsx-a11y', 'import'],
+    plugins: ['@synaptic-simulations', '@typescript-eslint', 'react-hooks', 'react', 'jsx-a11y', 'import'],
     rules: {
         'arrow-parens': ['error', 'always'],
         'brace-style': ['error', '1tbs', { allowSingleLine: false }],
@@ -72,5 +72,7 @@ module.exports = {
         '@typescript-eslint/member-delimiter-style': ['error', { singleline: { delimiter: 'comma' } }],
         'indent': ['error', 4, { SwitchCase: 1 }],
         'default-case': 'off',
+
+        '@synaptic-simulations/prefer-ts-path-import': 'error',
     }
 }
