@@ -1,10 +1,9 @@
 {
   "name": "@synaptic-simulations/eslint-config",
-  "version": "1.0.1-rc10",
+  "version": "1.0.1-rc11",
   "description": "ESLint configuration for Synaptic Simulations' projects",
   "main": "index.js",
   "dependencies": {
-    "@synaptic-simulations/eslint-plugin": "^1.0.0-rc2",
     "@typescript-eslint/eslint-plugin": "^5.42.1",
     "@typescript-eslint/parser": "^5.42.1",
     "eslint-config-airbnb": "^19.0.4",

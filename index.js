@@ -1,7 +1,7 @@
 module.exports = {
     extends: 'airbnb',
     parser: '@typescript-eslint/parser',
-    plugins: ['@synaptic-simulations', '@typescript-eslint', 'react-hooks', 'react', 'jsx-a11y', 'import'],
+    plugins: ['@typescript-eslint', 'react-hooks', 'react', 'jsx-a11y', 'import'],
     rules: {
         'arrow-parens': ['error', 'always'],
         'brace-style': ['error', '1tbs', { allowSingleLine: false }],
@@ -11,6 +11,7 @@ module.exports = {
         'import/no-extraneous-dependencies': ['error', { devDependencies: false }],
         'import/prefer-default-export': 'off',
         'import/no-default-export': 'error',
+        'import/newline-after-import': 'error',
 
         'react/jsx-filename-extension': [2, { extensions: ['.jsx', '.tsx'] }],
         'react/jsx-indent': ['error', 4],
@@ -72,7 +73,5 @@ module.exports = {
         '@typescript-eslint/member-delimiter-style': ['error', { singleline: { delimiter: 'comma' } }],
         'indent': ['error', 4, { SwitchCase: 1 }],
         'default-case': 'off',
-
-        '@synaptic-simulations/prefer-ts-path-import': 'error',
     }
 }
