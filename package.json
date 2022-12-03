@@ -1,6 +1,6 @@
 {
   "name": "@synaptic-simulations/eslint-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ESLint configuration for Synaptic Simulations' projects",
   "main": "index.js",
   "dependencies": {

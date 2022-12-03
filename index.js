@@ -26,6 +26,7 @@ module.exports = {
 
         'no-case-declarations': 'off',
 
+        'no-bitwise': 'off',
         'no-plusplus': 'off',
         'no-shadow': 'off',
         'no-continue': 'off',
